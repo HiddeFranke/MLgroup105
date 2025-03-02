@@ -29,4 +29,6 @@ class data():
         num = input("Select the image you want to show.")
         image = cv2.imread(data.path[num])
         plt.imshow(image)
+        plt.axis('off')
+        plt.show()
     
